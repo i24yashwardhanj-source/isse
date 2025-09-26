@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  isse_app:
+    build: .
+    container_name: isse_app
+    volumes:
+      - .:/app
+    working_dir: /app
+    tty: true
+    stdin_open: true
+
+  # Optional PostgreSQL/PostGIS service if needed for larger-scale geospatial queries
+  # For now, our lightweight approach doesn't require it, keeping setup simple.
+  # postgis_db:
+  #   image: postgis/postgis:13-3.1
+  #   container_name: postgis_db
+  #   environment:
+  #     - POSTGRES_USER=user
+  #     - POSTGRES_PASSWORD=password
+  #     - POSTGRES_DB=isse_db
+  #   ports:
+  #     - "5432:5432"
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
+

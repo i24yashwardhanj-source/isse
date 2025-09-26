@@ -1,0 +1,21 @@
+project_id,lead_source,project_type,project_value_inr,customization_required,days_to_close,status
+1,Inbound,Residential Villa,300000,True,45,Won
+2,Outbound,Corporate Office,1000000,True,90,Lost
+3,Referral,Boutique Hotel,2500000,True,60,Won
+4,Inbound,Cafe Fit-out,500000,False,30,Won
+5,Outbound,Residential Villa,450000,True,120,Lost
+6,Inbound,Corporate Office,1200000,False,55,Won
+7,Referral,Cafe Fit-out,750000,True,40,Won
+8,Outbound,Boutique Hotel,2000000,True,150,Lost
+9,Inbound,Residential Villa,350000,False,25,Won
+10,Inbound,Boutique Hotel,1800000,True,75,Won
+11,Outbound,Cafe Fit-out,600000,False,80,Lost
+12,Referral,Corporate Office,1500000,True,65,Won
+13,Inbound,Residential Villa,500000,True,50,Won
+14,Outbound,Corporate Office,900000,False,110,Lost
+15,Inbound,Boutique Hotel,3000000,True,85,Won
+16,Referral,Residential Villa,400000,False,35,Won
+17,Outbound,Cafe Fit-out,550000,True,95,Lost
+18,Inbound,Corporate Office,1100000,True,70,Won
+19,Referral,Boutique Hotel,2200000,False,50,Won
+20,Outbound,Residential Villa,250000,False,130,Lost

@@ -1,0 +1,11 @@
+parameter,value,description
+initial_investment_inr,250000000,"Series A fundraising ask, as per the strategic plan"
+discount_rate_annual,0.15,"Annual discount rate for NPV calculation, reflecting venture-level risk"
+tax_rate,0.25,"Corporate tax rate, applied only when profitable"
+num_monte_carlo_simulations,5000,"Number of future scenarios to simulate for risk analysis"
+forecast_years,5,"The number of years for our pro-forma financial forecast"
+d2c_growth_mean,0.60,"Mean annual growth rate for D2C revenue"
+d2c_growth_std,0.15,"Standard deviation of D2C growth rate, representing market uncertainty"
+b2b_growth_mean,0.40,"Mean annual growth rate for B2B revenue"
+b2b_growth_std,0.10,"Standard deviation of B2B growth rate"
+

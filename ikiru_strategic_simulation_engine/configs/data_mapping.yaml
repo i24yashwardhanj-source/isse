@@ -1,0 +1,48 @@
+# This file maps the raw column names from your CSV files to the standardized names our models use.
+# This makes the data loading process robust to changes in source file column names.
+
+transactional_data:
+  path: 'data/raw/export_20250917 (1).csv' # Or your primary orders file
+  columns:
+    customer_id: 'Customer ID'
+    order_date: 'Order Date'
+    order_value: 'Grand Total'
+
+marketing_spend_data:
+  path: 'data/raw/synthetic_marketing_spend.csv'
+  columns:
+    date: 'Date'
+    facebook_spend: 'Facebook Ads'
+    google_spend: 'Google Ads'
+    influencer_spend: 'Influencer Marketing'
+    total_sales: 'Total Sales'
+
+b2b_pipeline_data:
+  path: 'data/raw/synthetic_b2b_pipeline.csv'
+  columns:
+    lead_source: 'Lead Source'
+    deal_value: 'Deal Value (INR)'
+    project_type: 'Project Type'
+    status: 'Status'
+
+customer_locations_data:
+  path: 'data/raw/synthetic_customer_locations.csv'
+  columns:
+    customer_id: 'customer_id'
+    latitude: 'latitude'
+    longitude: 'longitude'
+
+warehouse_locations_data:
+  path: 'data/raw/synthetic_warehouse_locations.csv'
+  columns:
+    warehouse_id: 'warehouse_id'
+    latitude: 'latitude'
+    longitude: 'longitude'
+
+financial_assumptions_data:
+  path: 'data/raw/synthetic_financial_assumptions.csv'
+  columns:
+    parameter: 'parameter'
+    value: 'value'
+    description: 'description'
+
